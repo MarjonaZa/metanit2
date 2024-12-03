@@ -5,7 +5,8 @@ from django.shortcuts import render
 def index(request):
     return render(request, "index.html")
 
-
+def commit():
+    return  f'бла бла бла'
 
 
 # def set(request):
